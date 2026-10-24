@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: disasterlens
+Version: 0.1.0
+Summary: Satellite pre/post disaster damage assessment and response prioritization (decision support)
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: opencv-python-headless
+Requires-Dist: pillow
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

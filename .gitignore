@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+data/raw/
+data/processed/
+
+artifacts/*
+!artifacts/triage_gpu_v1.pt
